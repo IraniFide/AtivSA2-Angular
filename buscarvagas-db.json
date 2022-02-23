@@ -1,0 +1,28 @@
+{
+  "buscarvagas": [
+      {
+          "id": 1,
+          "Vaga": "Analista de Dados Senior",
+          "Fotos": "profissionalti1.jpg",
+          "reqNecessarios": "Experiencia Java,Angular,Sql",
+          "reqDesejado": "Conhecimento JS,HTML",
+          "salario": 10000
+      },  
+      {
+          "id": 2,
+          "Vaga": "Mobile junior",
+          "Fotos": "profissionalti2.jpg",
+          "reqNecessarios": "Experiencia Java,Ios, Android,",
+          "reqDesejado": "Conhecimento Appium",
+          "salario": 6000
+      },
+      {
+          "id": 3,
+          "Vaga": "Mobile Senior",
+          "Fotos": "profissionalti3.jpg",
+          "reqNecessarios": "Experiencia Java,Ios, Android,",
+          "reqDesejado": "Conhecimento Appium",
+          "salario": 6000
+      }
+  ]
+}
