@@ -1,21 +1,19 @@
-<section class="lista-vagas">
-  <div *ngFor="let buscar of buscarvagas">
 
-    <div class="card" style="width: 18rem;">
-      <img src="asserts\img\vagas\{{buscar.Fotos}}" class="card-img-top" alt="">
-      <div class="card-body">
-        <h5 class="card-title">Cod Vaga :{{buscar.id}}</h5>
-        <h5 class="card-title">Vaga:{{buscar.Vaga}}</h5>
-        <h5 class="card-title">DescricaoNecessario :{{buscar.reqNecessarios}}</h5>
-        <p class="card-title">Descricaodesejado :{{buscar.reqDesejado}}</p>
-        <p class="card-title">Salario R$ :{{buscar.salario}}</p>
+  <section class="listar-vagas">
+   <div *ngFor="let buscarvaga of Buscarvagas">
+  
+      <div class="card" style="width: 18rem;">
+        <img src="asserts\img\vagass\{{buscarvaga.Fotos}}" class="card-img-top" alt="">
+        <div class="card-body">
+          <h5 class="card-title">Cod Vaga :{{buscarvaga.id}}</h5>
+          <h5 class="card-title">Vaga:{{buscarvaga.Vaga}}</h5>
+          <h5 class="card-title">DescricaoNecessario :{{buscarvaga.reqNecessarios}}</h5>
+          <p class="card-title">Descricaodesejado :{{buscarvaga.reqDesejado}}</p>
+          <p class="card-title">Salario R$ :{{buscarvaga.salario}}</p>
+        </div>
       </div>
+  
     </div>
-
-  </div>
-
-
-
-
-</section>
-
+  
+  </section>
+  
